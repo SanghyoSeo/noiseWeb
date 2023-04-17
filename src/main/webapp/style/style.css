@@ -1,0 +1,220 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    margin: 0;
+}
+
+input[type=submit], input[type=button] {
+    background-color: lightgray;
+    border: 0;
+    border-radius: 4px;
+}
+
+input[type=submit]:hover,
+input[type=button]:hover {
+    background-color: rgb(52, 152, 219);
+    color: white;
+}
+
+/* 로그인 css */
+.noise_logo {
+    width: 100%;
+    text-align: center;
+    margin-top: 100px;
+    font-size: 36px;
+}
+
+.login_box_wrap {
+    width: 400px;
+    margin: 0 auto;
+}
+
+.login_box {
+    width: 400px;
+    text-align: center;
+    border: 2px solid lightgray;
+}
+
+.login_btn:not(p) {
+    width: 360px;
+    height: 60px;
+    background-color: rgb(52, 152, 219);
+    color: white;
+    border-radius: 4px;
+    border: 0;
+    font-size: 20px;
+}
+
+
+.login_input {
+    margin-top: 16px;
+    width: 360px;
+    height: 40px;
+    background-color: rgb(224, 224, 224);
+    outline: none;
+    border-radius: 4px;
+    border: 0;
+    font-size: 16px;
+    padding-left: 8px;
+}
+
+/* navbar */
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 8px 12px;
+}
+
+.navbar_logo {
+    font-size: 24px;
+}
+
+.navbar_menu {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+    margin-left: 20px;
+}
+
+.navbar_menu li,
+.navbar_account li {
+    padding: 8px 12px;
+}
+
+.navbar_account li:hover {
+    background-color: lightgray;
+    border-radius: 4px;
+}
+
+.navbar_account {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+    margin-left: auto;
+}
+
+/* board */
+table {
+    width: 90%;
+    text-align: center;
+    margin: auto;
+}
+
+th {
+    background-color: lightgray;
+}
+
+.table_num {
+    width: 5%;
+}
+
+.table_title {
+    width: 60%;
+}
+
+.table_title_value {
+    text-align: left;
+    padding-left: 16px;
+}
+
+.table_writer {
+    width: 10%;
+}
+
+.table_regtime {
+    width: 14%;
+}
+
+.wrap_btn {
+    margin-left: 5%;
+}
+
+.btn {
+    width: 60px;
+    height: 26px;
+}
+
+.board_input,
+textarea {
+    width: 100%;
+}
+
+.th_width {
+    width: 10%;
+}
+
+.td_view {
+    text-align: left;
+}
+
+/* review */
+.apt_btn {
+    width: 60px;
+    height: 30px;
+    margin-bottom: 4px;
+}
+
+.noise_level {
+    list-style: none;
+    padding: 0;
+}
+
+.red_square {
+    background-color: #e74c3c;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 4px;
+    margin-right: 20px;
+}
+
+.orange_square {
+    background-color: #f39c12;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 4px;
+    margin-right: 20px;
+}
+
+.yellow_square {
+    background-color: #f1c40f;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 4px;
+    margin-right: 20px;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    /*align-items: center;*/
+}
+
+.review_list {
+    text-align: center;
+}
+
+.noise_level {
+    /*padding-right: 100px;*/
+    width: 100%;
+}
+
+.left_aside {
+    width: 20%;
+}
+
+.wrap_dong {
+    margin-left: 40px;
+}
+
+.dong {
+    width: 60px;
+    height: 26px;
+}
